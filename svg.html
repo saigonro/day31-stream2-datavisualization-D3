@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Scalable Vector Graphics</title>
+    
+    <style type="text/css">
+        #first {
+            background-color: #F5FAFA;
+            padding: 20px;
+        }
+        #second {
+            background-color: #C1DAD6;
+            padding: 20px;
+        }
+        .blue {
+            fill: blue;
+        }
+    </style>
+    
+</head>
+<body>
+
+<h1>Scalable Vector Graphics</h1>
+<div id="first">
+    <svg>
+        <rect x="0" y="0" width="20" height="20" fill="red"/>
+        <circle cx="50" cy="30" r="30" fill="violet"/>
+        <ellipse cx="200" cy="30" rx="50" ry="20" fill="green"/>
+        <polygon points="100,0 120,0 130,10 115,40 90,20" fill="brown"/>
+    </svg>
+</div>
+
+<div id="second">
+    <svg>
+        <rect class="blue" x="0" y="0" width="20" height="150"/>
+        <rect class="blue" x="22" y="20" width="20" height="130"/>
+        <rect class="blue" x="44" y="50" width="20" height="100"/>
+        <rect class="blue" x="66" y="10" width="20" height="140"/>
+        <rect class="blue" x="88" y="100" width="20" height="50"/>
+        <rect class="blue" x="110" y="30" width="20" height="120"/>
+        <rect class="blue" x="132" y="40" width="20" height="110"/>
+    </svg>
+</div>
+    
+</body>
+</html>
